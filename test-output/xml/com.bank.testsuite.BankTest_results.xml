@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="regression"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="29.413">
+  <properties />
+  
+  
+            <testcase name="customerShouldWithdrawMoneySuccessfully" time="8.382" classname="com.bank.testsuite.BankTest" />
+                <testcase name="bankManagerShouldOpenAccountSuccessfully" time="3.340" classname="com.bank.testsuite.BankTest" />
+                <testcase name="customerShouldDepositMoneySuccessfully" time="9.694" classname="com.bank.testsuite.BankTest" />
+                <testcase name="bankManagerShouldAddCustomerSuccessfully" time="1.643" classname="com.bank.testsuite.BankTest" />
+                <testcase name="customerShouldLoginAndLogoutSuceessfully" time="6.354" classname="com.bank.testsuite.BankTest" />
+      
+</testsuite>
