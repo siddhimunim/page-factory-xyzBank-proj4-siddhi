@@ -28,6 +28,9 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         test.log(Status.PASS, "TEST CASE PASSED IS " + iTestResult.getName());
+        String screenshotPath = takeScreenShot(iTestResult.getName());
+        test.addScreenCaptureFromPath(screenshotPath);
+
         // This step take screenshot and store in to test-output/html folder
         String screenshotName = Utility.takeScreenShot(iTestResult.getName());
         // This line required for ReportNG reports
